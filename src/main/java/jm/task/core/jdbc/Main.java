@@ -16,26 +16,5 @@ public class Main {
         UserService service = new UserServiceImpl();
 
         Util.getHibernateSession();
-
-        //Создание таблицы;
-//        service.createUsersTable();
-//
-//        //Добавление пользователей в таблицу;
-//        service.saveUser("Ivan", "Vasilievich", (byte) 34);
-//        service.saveUser("Leroy", "Dgenkins", (byte) 42);
-//        service.saveUser("Patric", "Glenkins", (byte) 17);
-//        service.saveUser("Muscle", "Globus", (byte) 31);
-//
-//        //Вывод всех пользователей из таблицы;
-//        service.getAllUsers();
-//
-//        //Удаление пользователя по id;
-//        service.removeUserById(1);
-//
-//        //Удаление всех пользователей из таблицы;
-//        service.cleanUsersTable();
-//
-//        //Удаление таблицы;
-//        service.dropUsersTable();
     }
 }
