@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) throws SQLException {
         // реализуйте алгоритм здесь
 
-        UserService service = new UserServiceImpl(new UserDaoHibernateImpl());
+        UserService service = new UserServiceImpl();
 
         Util.getHibernateSession();
 
